@@ -1,29 +1,16 @@
 # 🤖 AI Career Copilot
 
-An AI-powered career assistant that analyzes resumes, matches jobs, and provides intelligent career insights using LLM and RAG concepts.
+AI Career Copilot is a Python-based AI project that analyzes resumes and matches them with job descriptions using LLM concepts and RAG-based architecture.
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Features
 
-AI Career Copilot is a modular GenAI system designed to help users:
-- Analyze resumes
-- Match jobs intelligently
-- Identify skill gaps
-- Provide career improvement suggestions
-
-The system follows a clean, production-style architecture.
-
----
-
-## ⭐ Key Features
-
-- 📄 Resume Analysis
-- 💼 Job Matching Engine
-- 🧠 RAG-based Smart Matching Concept
-- 🤖 LLM-powered Response Generation (optional API)
-- 🖥️ Streamlit Interactive UI
-- 🧩 Modular Architecture
+- Resume analysis
+- Job description matching
+- Skill gap identification
+- AI-based suggestions
+- Streamlit interactive UI
 
 ---
 
@@ -32,11 +19,27 @@ The system follows a clean, production-style architecture.
 - Python
 - Streamlit
 - OpenAI API (optional)
-- RAG (Retrieval-Augmented Generation concept)
-- Embeddings concept
+- RAG concept (Retrieval-Augmented Generation)
 - Modular AI system design
 
 ---
 
-## 📂 Project Structure
+## ▶️ How to Run
 
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Run the app:
+python -m streamlit run app.py
+
+---
+
+## 👨‍💻 Author
+
+Developed by Sooraj
+
+---
+
+## ⭐ Note
+
+This project demonstrates a real-world AI system design using modular architecture and GenAI concepts.
